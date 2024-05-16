@@ -1,1 +1,54 @@
 /*收尾相同样式*/
+.wrapper{
+    margin: 0 auto;
+    width: 1240px;
+
+}
+.shortcut{
+    height: 52px;
+    background-color: #333;
+}
+.shortcut .wrapper{
+    display: flex;
+    justify-content: end;
+    height: 52px;
+    /* background-color: pink; */
+}
+
+.shortcut ul{
+    display: flex;
+    line-height: 52px;
+    
+
+}
+.shortcut li a{
+    padding: 0 15px;
+    border-right: 1px solid white;
+    font-size: 14px;
+    color: white;
+}
+
+.shortcut li:last-child a
+    {border-right: none;
+    padding-right: 0;
+    }
+
+.shortcut li .iconfont{
+    margin-right: 5px;
+    vertical-align: auto;
+}
+
+.shortcut li .login{
+    color: #5eb69c;
+}
+
+.header{
+    height: 132px;
+
+}
+.header .wrapper{
+    display: flex;
+    height: 132px;
+    padding: 22px 0;
+    background-color: pink;
+}
